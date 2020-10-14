@@ -1,4 +1,4 @@
-@media ( max-width: 575px){
+@media ( max-width: 578px){
     .container{
         padding: 0 5px 0 5px;
     }
@@ -46,6 +46,7 @@
             text-align: center;
         }
         &__icons {
+            justify-content: space-evenly;
             margin-top: 35px;
             width: 100%;
         }
@@ -69,6 +70,7 @@
     {
         padding: 30px 0;
         &__wrapper {
+            justify-content: space-evenly;
             margin-top: 35px;
         }
         &__item {
@@ -117,6 +119,27 @@
             &:nth-child(3) {
                 margin-bottom: 20px;
             }
+        }
+    }
+    .carousel {
+        padding: 40px 0;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+        &__inner {
+            width: 310px;
+        }
+        .slick-prev, .slick-next {
+            display: none !important;
+        }
+        .slick-dots{
+            padding: 0;
+            justify-content: center;
+        }
+        .slick-dots li button:before {
+            font-size: 30px;            
+            color: $main-color;
         }
     }
 
