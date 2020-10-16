@@ -4,9 +4,12 @@
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
+    margin: 0;
+    line-height: 30px;
     &_left{
         color: #ffffff;
-    font-size: 36px;
-    text-align: left;
+        font-size: 36px;
+        text-align: left;
+        line-height: 36px;
     }
 }

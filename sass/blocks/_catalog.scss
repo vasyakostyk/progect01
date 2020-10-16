@@ -1,5 +1,5 @@
 .catalog {
-    padding: 0 0 100px 0;
+    padding: 0 0 90px 0;
     &__tabs{
         margin-top: 70px;
         list-style-type: none;
@@ -38,7 +38,6 @@
     &__content{
         margin-top: 60px;
         display: none;
-        justify-content: space-between;
         flex-wrap: wrap;
         &_active {
             display: flex;
@@ -51,6 +50,7 @@
         border: 2px solid #e8e8e8;
         padding: 20px 20px 26px 20px;
         overflow: hidden;
+        margin: 0 5px 15px 5px;
         &__img {
             display: block;
             margin: 0 auto;
